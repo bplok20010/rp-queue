@@ -1,0 +1,39 @@
+{
+    "name": "rp-queue",
+    "version": "1.0.0",
+    "description": "Run Promise queue",
+    "license": "MIT",
+    "repository": "https://github.com/bplok20010/rp-queue",
+    "author": {
+        "name": "Nobo Zhou",
+        "email": "nobo.zhou@foxmail.com"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "node test.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "promise",
+        "queue",
+        "enqueue",
+        "limit",
+        "limited",
+        "rate",
+        "batch",
+        "ratelimit",
+        "priority",
+        "priorityqueue",
+        "fifo",
+        "job",
+        "task",
+        "async",
+        "await",
+        "promises",
+        "bluebird"
+    ]
+}
