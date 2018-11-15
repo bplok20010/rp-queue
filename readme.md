@@ -31,4 +31,19 @@ RPQueue(tasks, 2).then(()=>{
 	console.log('done');
 });
 
+=======================
+
+const RPQueue = require('rp-queue');
+
+let tasks = [
+	1,2,3,4,5
+];
+
+RPQueue(tasks, {
+    limit: 2,
+    process: tid => Promise.resolve(tid)
+}).then(()=>{
+	console.log('done');
+});
+
 ```
