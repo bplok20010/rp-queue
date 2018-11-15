@@ -21,7 +21,7 @@ function getTasks() {
 }
 
 
-console.log('-----A.limit 1-----')
+console.log('-----A.limit 30-----')
 RPQueue(getTasks())
     .then(function () {
         console.log('-----B.limit 1-----')
